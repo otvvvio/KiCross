@@ -9,14 +9,14 @@
     "name": "https://adamws.github.io/kicad-plugin-template repository",
     "packages": {
         "url": "https://adamws.github.io/kicad-plugin-template/packages.json",
-        "sha256": "56ecf97a67403601b0dc16d312c524de99523d13c44c71751cf50455b9f414cd",
-        "update_time_utc": "2024-12-02 20:47:56",
-        "update_timestamp": 1733172476
+        "sha256": "ffe33b134772ce7437df1ee6949d13474916932de4edb569c2c69b1b92bf2b9a",
+        "update_time_utc": "2024-12-11 14:53:47",
+        "update_timestamp": 1733928827
     },
     "resources": {
         "url": "https://adamws.github.io/kicad-plugin-template/resources.zip",
         "sha256": "11e5f54c98e02044449099c5ce0ccbe6beb07ebabe8979b9f7f8a47b2394b540",
-        "update_time_utc": "2024-12-02 20:47:56",
-        "update_timestamp": 1733172476
+        "update_time_utc": "2024-12-11 14:53:47",
+        "update_timestamp": 1733928827
     }
 }

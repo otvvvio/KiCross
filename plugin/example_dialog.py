@@ -297,8 +297,10 @@ class ExampleDialog(wx.Dialog):
             input_data.append(track_params)
             label.append(netname)
 
+        path = os.path.join("..", "model", "model_weights.pth")
+
         model = RegressionModel(input_dim=10)
-        model.load_state_dict(torch.load(r"C:\Users\otavi\OneDrive\Área de Trabalho\teste\model_weights.pth", weights_only = True))
+        model.load_state_dict(torch.load(path, weights_only = True))
         model.eval()
 
 

@@ -41,7 +41,7 @@ description_full = [
 identifier = "com.github.adamws.kicad-plugin-template"
 author = { name = "anonymous", web="https://example.com" }
 status = "development"
-kicad_version = "6.0"
+kicad_version = "8.0"
 sources = ["plugin"]
 include = [
   "plugin/*.py",
