@@ -297,7 +297,7 @@ class ExampleDialog(wx.Dialog):
             input_data.append(track_params)
             label.append(netname)
 
-        path = os.path.join("..", "model", "model_weights.pth")
+        path = os.path.join(r"C:\Users\otavi\OneDrive\Documentos\GitHub\KiCross\model", "model_weights.pth")
 
         model = RegressionModel(input_dim=10)
         model.load_state_dict(torch.load(path, weights_only = True))
